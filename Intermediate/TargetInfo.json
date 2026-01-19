@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TowerDefense",
+			"Path": "..\\Source\\TowerDefense.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TowerDefenseEditor",
+			"Path": "..\\Source\\TowerDefenseEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

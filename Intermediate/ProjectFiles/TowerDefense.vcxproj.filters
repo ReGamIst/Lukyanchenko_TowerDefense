@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TowerDefense.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TowerDefense.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TowerDefenseEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\TowerDefense.zip" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TowerDefense">
+      <UniqueIdentifier>{EEE2C4AD-FB1F-3AED-B33E-4699522A7E08}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TowerDefense\TowerDefense.Build.cs">
+      <Filter>Source\TowerDefense</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TowerDefense\TowerDefense.cpp">
+      <Filter>Source\TowerDefense</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TowerDefense\TowerDefense.h">
+      <Filter>Source\TowerDefense</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
