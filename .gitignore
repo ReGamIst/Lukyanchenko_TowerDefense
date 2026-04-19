@@ -1,0 +1,40 @@
+# Visual Studio / Rider
+.vs/
+.idea/
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+*.user
+*.xcodeproj
+*.xcworkspace
+
+# UE5 generated folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Script/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# UE5 generated files
+*.pdb
+*.ipch
+*.obj
+*.pch
+*.exp
+*.lib
+*.dll
+*.exe
+*.app
+*.ushaderbytecode
+
+# Packaged builds
+[Bb]uilds/
+[Pp]ackage/
+
+# OS junk
+Thumbs.db
+.DS_Store
